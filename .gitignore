@@ -127,3 +127,11 @@ nb-configuration.xml
 /phpunit*.xml
 
 /.php-cs-fixer.php
+
+
+# --- CodeIgniter project exclusions ---
+/vendor
+/writable/*
+!.gitignore
+.env
+*.log
